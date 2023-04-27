@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+html {
+	background-color: rgba(0, 0, 0, 0.58);
+}
+
+#aux {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.card {
+	width: 600px;
+	height: 500px;
+	background-image: url("https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWFydmVsJTIwbG9nb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	box-shadow: 4px 4px 8px black;
+}
+
+.photo {
+	width: 400px;
+	height: 400px;
+	background-image: url("https://images.unsplash.com/photo-1608889476561-6242cfdbf622?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YXZlbmdlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+	background-size: cover;
+	border-radius: 10%;
+	margin-bottom: 10px;
+	box-shadow: 8px 8px 50px red;
+}
